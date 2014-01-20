@@ -11,13 +11,15 @@ In this episode of the technical meetup we will be covering the key elements to 
 ### Software Requirements
 - Install the latest distribution of the [ruby](https://www.ruby-lang.org/en/downloads/) programming language
 - Install the Cucumber gem
-```ruby
+```
 gem install cucumber --no-ri --no-rdoc
 ```
 - Install the watir driver which include the Selenium capabilities
-```ruby
+```
 gem install watir --no-ri --no-rdoc
+
 gem install watir-webdriver --no-ri --no-rdoc
+
 gem install webdriver-useragent --no-ri --no-rdoc
 ```
 
