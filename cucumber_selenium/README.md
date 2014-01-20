@@ -18,7 +18,6 @@ gem install cucumber --no-ri --no-rdoc
 ```
 gem install watir --no-ri --no-rdoc
 gem install watir-webdriver --no-ri --no-rdoc
-gem install webdriver-useragent --no-ri --no-rdoc
 ```
 
 - Install the plugin Selenium IDE in Firefox
