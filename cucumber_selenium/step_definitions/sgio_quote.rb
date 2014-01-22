@@ -47,7 +47,11 @@ Given(/I select (.*?) in (.*?)$/) do |value, target|
 end 
 
 Given(/I chose the first match/) do
-	
+  Watir::Wait.until { 
+    $browser.radio(:name => "detail").exists?
+  }
+
+  $browser.radio(:name => "detail").set	
 end
 
 Given(/I switch to the new window/) do 
@@ -72,5 +76,5 @@ Then(/^I should see a link from (.*?) domain$/) do |domain_name|
 end
 
 at_exit do
-	#$browser.close
+#$browser.close
 end

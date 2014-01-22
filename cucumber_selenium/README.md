@@ -18,7 +18,9 @@ gem install cucumber --no-ri --no-rdoc
 ```
 gem install watir --no-ri --no-rdoc
 gem install watir-webdriver --no-ri --no-rdoc
+cucumber -r step_definitions/sgio_quote.rb features/sgio_car_quote.feature
 ```
 
 - Install the plugin Selenium IDE in [Firefox](http://www.mozilla.org/en-US/)
 - Install Sublime Text 2 Editor for easy file editing
+

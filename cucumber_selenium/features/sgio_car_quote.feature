@@ -20,7 +20,6 @@ Feature: Obtain a quote for a comprehensive car insurance
   And I select <model> in model
   And I select <shape> in shape
   And I select <engine> in engine
-  And I chose the first match
 
 
  Examples: 
