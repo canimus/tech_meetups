@@ -20,5 +20,5 @@ gem install watir --no-ri --no-rdoc
 gem install watir-webdriver --no-ri --no-rdoc
 ```
 
-- Install the plugin Selenium IDE in Firefox
+- Install the plugin Selenium IDE in [Firefox](http://www.mozilla.org/en-US/)
 - Install Sublime Text 2 Editor for easy file editing
